@@ -185,6 +185,22 @@ body {
   text-decoration: none;
 }
 .pub-item a:hover { color: #2c6cb8; text-decoration: underline; }
+.pub-item .badges {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.pub-item .badge {
+  font-size: 0.76rem;
+  line-height: 1;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid;
+}
+.badge--role { color: #8b572a; background: #ffeddc; border-color: #f4d0af; }
+.badge--if { color: #1f6f52; background: #e3f6ec; border-color: #bde7d4; }
+.badge--zone { color: #375d8f; background: #edf4ff; border-color: #d4e4fb; }
 
 .grant-list {
   list-style: none;
